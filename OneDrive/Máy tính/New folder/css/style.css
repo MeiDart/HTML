@@ -1,0 +1,158 @@
+html{height: 1000px;
+}
+
+.w
+/* nav bar */
+#header{
+    /* position: fixed; */
+    z-index: 0;
+}
+.navbar-shopee{
+    background-color:#ee4d2d;
+    color: #fef6f5;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 475;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar-shopee a{
+    color: #fef6f5;
+    margin: 0 4px;
+    line-height: 34px;
+}
+.navbar-shopee a::after{
+    margin-left: 12px;
+    content: "|";
+    opacity: 0.3    ;
+}
+
+.navbar-shopee a:hover{
+    text-decoration: none;
+    opacity: 0.8;
+    color: #fef6f5 ;
+}
+
+.qr-code{
+    display: none;
+}
+
+.navbar__link-1{
+
+}
+.navbar__link-2 {
+    margin-left:240px;
+}
+/* search-bar */
+.search-bar{
+    background:linear-gradient(#ee4d2d,#ff7337);;   
+    color: #fef6f5;
+    height: 85px;
+    font-size: 14px;
+    font-weight: 475;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0;
+}
+.shopee-icon{
+}
+
+.shopee-icon img{
+
+}
+
+.search-bar-main{
+    width: 840px;
+    height: 40px;
+    background-color:#fef6f5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.search-input{
+    width: 754px;
+    height: 34px;
+    border: none;
+    padding: 0 10px;
+}
+.search-btn{
+    background:linear-gradient(#ee4d2d,#ff7337);
+    border: none;
+    color: #fef6f5;
+    width: 60px;
+    height: 34px;
+    margin: 0 13px ;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.shopping-selection li{
+    padding: 0 4px;
+}
+
+.shopping-selection a{
+    color: #fef6f5;
+}
+.shopping-selection a:hover{
+    text-decoration: none;
+    color: #fef6f5;
+    opacity: 0.8;
+}
+
+.shopping-selection{
+    line-height: 27px;
+}
+
+
+.cart-btn{
+    font-size: 26px;
+    background:linear-gradient(#ee4d2d,#ff7337);;   
+    border: none;
+    color: #fef6f5;
+    width: 138px;
+    padding: 10px 0;
+}
+
+/* banner */
+#banner{    
+    display: flex;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+}
+.slider-shopee{
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+.img-banners{
+    height: 135px;
+    margin-left: 4px;
+}
+
+/* content */
+#content{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{color: #ee4d2d;}
+
+.card-shopee{
+    width:200px;
+    height: 292px;
+    border-radius: 2px;
+    border: 3px solid #ee4d2d ;
+}
+
+.card-text{
+    border: 1px solid #ee4d2d ;
+    color:#ee4d2d;
+    padding: 2px;
+}
